@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MedicalRecommendSystem:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/MedicalRecommendSystem_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MedicalRecommendSystem" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="sqljdbc4.jar" module-name="MedicalRecommendSystem" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="MedicalRecommendSystem/web/Web" />
+    </root>
+  </artifact>
+</component>
